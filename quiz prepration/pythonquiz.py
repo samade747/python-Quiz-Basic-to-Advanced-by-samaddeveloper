@@ -288,3 +288,28 @@
 #     c) Removes key if present  
 #     d) Returns None always  
 #     Correct Answer: a
+
+
+# 33. How do you create a dictionary comprehension?  
+#     a) {k: v for k, v in iterable}  
+#     b) dict(k: v for k, v in iterable)  
+#     c) Both a and b  
+#     d) It's not possible  
+#     Correct Answer: c
+
+
+
+# 34. What is the output of `{**d1, **d2}` if d1 and d2 are dictionaries?  
+#     a) Merges d2 into d1  
+#     b) Creates a new dictionary with keys from both  
+#     c) Raises an error if there are duplicate keys  
+#     d) Both b and c  
+#     Correct Answer: d
+
+
+# 35. How do you type hint a function that takes a dictionary and returns a list of its values?  
+#     a) from typing import Dict, List; def get_values(d: Dict[K, V]) -> List[V]:  
+#     b) def get_values(d: dict) -> list:  
+#     c) def get_values(d) -> list of values:  
+#     d) It's not possible without knowing K and V  
+#     Correct Answer: a (using generics)
