@@ -383,4 +383,11 @@
 #     d) input returns any type  
 #     Correct Answer: a (input always returns str)
 
+44. How do you loop until a condition is met?  
+    a) while condition: ...  
+    b) for i in range(inf): if not condition: break  
+    c) Both a and b  
+    d) Python doesn't support infinite loops  
+    Correct Answer: c
+ 
 
