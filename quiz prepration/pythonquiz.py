@@ -430,3 +430,21 @@ Section 10: Functions and Decorators
     c) def func() -> (int) -> int: ...  
     d) It's not possible  
     Correct Answer: a
+
+
+50. What is the purpose of `*args` and `**kwargs` in functions?  
+    a) To accept any number of positional and keyword arguments  
+    b) To accept only positional arguments  
+    c) To accept only keyword arguments  
+    d) To make functions more flexible  
+    Correct Answer: a
+
+
+Section 11: Exception Handling
+
+51. What is the structure of a try-except block?  
+    a) try: ... except Exception as e: ...  
+    b) try: ... catch Exception e: ...  
+    c) try: ... on error: ...  
+    d) It's not needed in Python  
+    Correct Answer: a
