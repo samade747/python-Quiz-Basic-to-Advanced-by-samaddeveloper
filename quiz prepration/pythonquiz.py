@@ -366,3 +366,21 @@
 #     c) They are the same  
 #     d) for can have else, while cannot  
 #     Correct Answer: a
+
+
+# 42. How do you get user input in Python?  
+#     a) input()  
+#     b) readInput()  
+#     c) getUserInput()  
+#     d) It's not possible  
+#     Correct Answer: a
+
+
+# 43. What is the type hint for user input?  
+#     a) input() -> str  
+#     b) input(str)  
+#     c) str(input())  
+#     d) input returns any type  
+#     Correct Answer: a (input always returns str)
+
+
