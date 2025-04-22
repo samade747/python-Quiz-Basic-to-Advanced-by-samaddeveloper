@@ -391,3 +391,19 @@
 #     Correct Answer: c
  
 
+# 45. What is the purpose of `break` in loops?  
+#     a) Exits the loop prematurely  
+#     b) Skips to the next iteration  
+#     c) Both a and b depending on context  
+#     d) It's not a keyword  
+#     Correct Answer: a
+
+
+Section 10: Functions and Decorators
+
+46. What is the correct way to define a function with type hints that takes two integers and returns their sum?  
+    a) def add(x: int, y: int) -> int: return x + y  
+    b) def add(x, y): return x + y  
+    c) def add(int x, int y): return x + y  
+    d) def add(x: integer, y: integer) -> integer: return x + y  
+    Correct Answer: a
