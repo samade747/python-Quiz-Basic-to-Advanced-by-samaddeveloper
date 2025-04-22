@@ -126,6 +126,165 @@
 #     b) False  
 #     c) SyntaxError  
 #     d) None  
+#     Correct Answer: a
+
+
+# 15. How do you swap two variables without using a temporary variable?  
+#     a) a, b = b, a  
+#     b) a = b; b = a  
+#     c) temp = a; a = b; b = temp  
+#     d) It's not possible  
+#     Correct Answer: a
+
+# Section 4: Lists and Their Methods
+
+# 16. What is the output of `[1, 2, 3].append(4)`?  
+#     a) [1, 2, 3, 4]  
+#     b) None  
+#     c) [4]  
+#     d) Error  
+#     Correct Answer: b (append returns None)
+
+
+
+# 17. How do you type hint a list of integers?  
+#     a) list[int]  
+#     b) List[int]  
+#     c) [int]  
+#     d) list of int  
+#     Correct Answer: a (in Python 3.9+
+
+
+
+# 18. What does `list.reverse()` do?  
+#     a) Returns a reversed list  
+#     b) Reverses the list in place  
+#     c) Both a and b  
+#     d) It's not a valid method  
 #     Correct Answer: b
 
 
+# 19. How do you create a copy of a list?  
+#     a) list.copy()  
+#     b) list[:]  
+#     c) Both a and b  
+#     d) list.clone()  
+#     Correct Answer: c
+
+
+# 20. What is the difference between `remove()` and `pop()`?  
+#     a) remove() removes by value, pop() by index  
+#     b) remove() removes by index, pop() by value  
+#     c) They are the same  
+#     d) pop() can take an index, remove() cannot  
+#     Correct Answer: a
+
+
+
+# Section 5: Lists, Tuples, and For Loops
+
+# 21. What is the main difference between lists and tuples?  
+#     a) Lists are mutable, tuples are immutable  
+#     b) Tuples are mutable, lists are immutable  
+#     c) Lists can have duplicates, tuples cannot  
+#     d) Tuples can have duplicates, lists cannot  
+#     Correct Answer: a
+
+
+# 22. How do you unpack a tuple into variables?  
+#     a) x, y, z = my_tuple  
+#     b) my_tuple.unpack(x, y, z)  
+#     c) x = my_tuple[0]; y = my_tuple[1]; z = my_tuple[2]  
+#     d) Both a and c  
+#     Correct Answer: d
+
+
+
+# 23. What is the output of the following code?  
+#     for i in range(3):  
+#         print(i)  
+#     a) 0 1 2  
+#     b) 1 2 3  
+#     c) 0 1  
+#     d) 3  
+#     Correct Answer: a
+
+# 24. How do you iterate over a list with both index and value?  
+#     a) for i, val in enumerate(my_list):  
+#     b) for i in range(len(my_list)): val = my_list[i]  
+#     c) Both a and b  
+#     d) my_list.items()  
+#     Correct Answer: c
+
+
+# 25. What is the type hint for a function that takes a list of ints and returns their sum?  
+#     a) def sum_list(nums: list[int]) -> int:  
+#     b) def sum_list(nums: List[int]) -> int:  
+#     c) Both a and b  
+#     d) def sum_list(nums) -> int:  
+#     Correct Answer: c
+
+# Section 6: Conditional Statements
+
+# 26. What is the output of the following code?  
+#     x = 10  
+#     if x > 5:  
+#         print("Greater")  
+#     else:  
+#         print("Smaller")  
+#     a) Greater  
+#     b) Smaller  
+#     c) Both  
+#     d) Neither  
+#     Correct Answer: a
+
+
+# 27. How do you use `elif` in Python?  
+#     a) if condition: ... elif condition: ... else: ...  
+#     b) if condition else condition  
+#     c) switch case  
+#     d) It's not available in Python  
+#     Correct Answer: a
+
+
+# 28. What does `zip()` do in Python?  
+#     a) Combines iterables into tuples  
+#     b) Unzips files  
+#     c) Both a and b  
+#     d) It's for compression  
+#     Correct Answer: a
+
+
+# 29. How do you sort a list of tuples by the second element?  
+#     a) sorted(my_list, key=lambda x: x[1])  
+#     b) my_list.sort(key=1)  
+#     c) sorted(my_list, by=1)  
+#     d) my_list.order_by(1)  
+#     Correct Answer: a
+
+
+
+# 30. What is the type hint for a function that takes an int and returns a str based on conditions?  
+#     a) def check(x: int) -> str:  
+#     b) def check(int x) -> str:  
+#     c) def check(x) -> string:  
+#     d) def check(x: integer) -> string:  
+#     Correct Answer: a
+
+
+# Section 7: Dictionaries
+
+# 31. How do you create a dictionary with type hints?  
+#     a) my_dict: dict[str, int] = {"a": 1, "b": 2}  
+#     b) my_dict = {"a": 1, "b": 2} : dict[str, int]  
+#     c) dict my_dict[str, int] = {"a": 1, "b": 2}  
+#     d) my_dict: {str: int} = {"a": 1, "b": 2}  
+#     Correct Answer: a
+
+
+# 32. What does `dict.get(key, default)` do?  
+#     a) Returns the value for key if key is in the dictionary, else default  
+#     b) Adds key with default if not present  
+#     c) Removes key if present  
+#     d) Returns None always  
+#     Correct Answer: a
