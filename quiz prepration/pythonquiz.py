@@ -416,3 +416,17 @@ Section 10: Functions and Decorators
     d) Decorators automatically preserve type hints  
     Correct Answer: a
 
+48. What is a closure in Python?  
+    a) A function that has access to its own scope and the scope of its outer functions  
+    b) A function that is closed and cannot be called again  
+    c) A function with no arguments  
+    d) A function that returns itself  
+    Correct Answer: a
+
+
+49. How do you type hint a function that returns another function?  
+    a) from typing import Callable; def func() -> Callable[[int], int]: ...  
+    b) def func() -> function: ...  
+    c) def func() -> (int) -> int: ...  
+    d) It's not possible  
+    Correct Answer: a
