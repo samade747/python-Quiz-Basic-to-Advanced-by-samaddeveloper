@@ -407,3 +407,12 @@ Section 10: Functions and Decorators
     c) def add(int x, int y): return x + y  
     d) def add(x: integer, y: integer) -> integer: return x + y  
     Correct Answer: a
+
+
+47. How do you define a decorator that preserves the type hints of the original function?  
+    a) Use @wraps from functools  
+    b) It's not possible  
+    c) Use @preserve_types  
+    d) Decorators automatically preserve type hints  
+    Correct Answer: a
+
