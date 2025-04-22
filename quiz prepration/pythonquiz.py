@@ -313,3 +313,56 @@
 #     c) def get_values(d) -> list of values:  
 #     d) It's not possible without knowing K and V  
 #     Correct Answer: a (using generics)
+
+
+# Section 8: Nested Dictionaries and Error Handling
+
+# 36. How do you access a value in a nested dictionary?  
+#     a) d['key1']['key2']  
+#     b) d.key1.key2  
+#     c) d['key1', 'key2']  
+#     d) d.get('key1', 'key2')  
+#     Correct Answer: a
+
+
+
+
+# 37. What is the best way to handle KeyError when accessing a dictionary?  
+#     a) Use try-except  
+#     b) Use dict.get()  
+#     c) Check if key in dict  
+#     d) All of the above  
+#     Correct Answer: d
+
+
+# 38. How do you type hint a nested dictionary?  
+#     a) dict[str, dict[str, int]]  
+#     b) NestedDict[str, int]  
+#     c) {str: {str: int}}  
+#     d) There is no standard way  
+#     Correct Answer: a
+
+
+# 39. What does `raise` do in Python?  
+#     a) Raises an exception  
+#     b) Catches an exception  
+#     c) Both a and b  
+#     d) It's not a keyword  
+#     Correct Answer: a
+
+
+# 40. How do you define a custom exception with type hints?  
+#     a) class MyError(Exception): pass  
+#     b) class MyError: pass  
+#     c) MyError = Exception("MyError")  
+#     d) def MyError(): raise Exception("MyError")  
+#     Correct Answer: a
+
+# Section 9: Loops and User Input
+
+# 41. What is the difference between `for` and `while` loops?  
+#     a) for is for iterating over sequences, while is for conditional looping  
+#     b) while is for iterating over sequences, for is for conditional looping  
+#     c) They are the same  
+#     d) for can have else, while cannot  
+#     Correct Answer: a
