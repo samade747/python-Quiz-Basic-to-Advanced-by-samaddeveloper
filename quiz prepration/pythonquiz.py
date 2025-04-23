@@ -768,3 +768,289 @@ B) yth
 C) tho
 D) hon
 Correct Answer: B) yth
+
+
+Question 25
+What is the output of the following code?
+x = 5
+y = 2
+print(x ** y)
+A) 10
+B) 25
+C) 7
+D) 3
+Correct Answer: B) 25
+
+Question 26
+What is the output of the following code?
+while False:
+    print("Loop")
+print("Done")
+A) Loop
+B) Done
+C) Loop Done
+D) Error
+Correct Answer: B) Done
+
+Question 27
+What is the output of the following code?
+def greet(name="Guest"):
+    return "Hello, " + name
+print(greet())
+A) Hello, Guest
+B) Hello,
+C) Error
+D) None
+Correct Answer: A) Hello, Guest
+
+Question 28
+What is the output of the following code?
+x = [1, 2, 3]
+x.pop(1)
+print(x)
+A) [1, 2, 3]
+B) [1, 3]
+C) [2, 3]
+D) Error
+Correct Answer: B) [1, 3]
+
+Question 29
+What is the output of the following code?
+d = {'x': 10, 'y': 20}
+d['z'] = 30
+print(d)
+A) {'x': 10, 'y': 20}
+B) {'x': 10, 'y': 20, 'z': 30}
+C) {'z': 30}
+D) Error
+Correct Answer: B) {'x': 10, 'y': 20, 'z': 30}
+
+Question 30
+What is the output of the following code?
+s = "hello world"
+print(s.split())
+A) ['hello', 'world']
+B) ['h', 'e', 'l', 'l', 'o']
+C) 'hello world'
+D) Error
+Correct Answer: A) ['hello', 'world']
+
+Question 31
+What is the output of the following code?
+x = 10
+if x % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+A) Even
+B) Odd
+C) 10
+D) Error
+Correct Answer: A) Even
+
+Question 32
+What is the output of the following code?
+for i in range(5):
+    if i == 2:
+        continue
+    print(i, end=" ")
+A) 0 1 2 3 4
+B) 0 1 3 4
+C) 2
+D) Error
+Correct Answer: B) 0 1 3 4
+
+Question 33
+What is the output of the following code?
+t = (1, 2, 3)
+print(len(t))
+A) 1
+B) 2
+C) 3
+D) Error
+Correct Answer: C) 3
+
+Question 34
+What is the output of the following code?
+s = {1, 2, 3}
+print(2 in s)
+A) True
+B) False
+C) 2
+D) Error
+Correct Answer: A) True
+
+Question 35
+What is the output of the following code?
+d = {'a': 1, 'b': 2}
+print(d.get('c', 0))
+A) 0
+B) None
+C) Error
+D) 'c'
+Correct Answer: A) 0
+
+Question 36
+What is the output of the following code?
+s = "python"
+print(s[1:4])
+A) pyt
+B) yth
+C) tho
+D) hon
+Correct Answer: B) yth
+
+Question 37
+What is the output of the following code?
+x = 7
+y = 3
+print(x % y)
+A) 1
+B) 2
+C) 3
+D) 0
+Correct Answer: A) 1
+
+Question 38
+What is the output of the following code?
+try:
+    print("5" + 5)
+except TypeError:
+    print("Error")
+A) 10
+B) Error
+C) 55
+D) None
+Correct Answer: B) Error
+
+Question 39
+What is the output of the following code?
+x = [1, 2, 3]
+x.remove(2)
+print(x)
+A) [1, 2, 3]
+B) [1, 3]
+C) [2, 3]
+D) Error
+Correct Answer: B) [1, 3]
+
+Question 40
+What is the output of the following code?
+with open("test.txt", "w") as f:
+    f.write("Hello")
+with open("test.txt", "r") as f:
+    print(f.read())
+A) Hello
+B) Error
+C) None
+D) test.txt
+Correct Answer: A) Hello
+
+Question 41
+What is the output of the following code?
+x = [i for i in range(3)]
+print(x)
+A) [0, 1, 2]
+B) [1, 2, 3]
+C) [0, 1, 2, 3]
+D) Error
+Correct Answer: A) [0, 1, 2]
+
+Question 42
+What is the output of the following code?
+import math
+print(math.ceil(3.2))
+A) 3
+B) 4
+C) 3.2
+D) Error
+Correct Answer: B) 4
+
+Question 43
+What is the output of the following code?
+class MyClass:
+    def __init__(self, x):
+        self.x = x
+obj = MyClass(5)
+print(obj.x)
+A) 5
+B) MyClass
+C) Error
+D) None
+Correct Answer: A) 5
+
+Question 44
+What is the output of the following code?
+s = "hello"
+print(s.replace("l", "p"))
+A) heppo
+B) hello
+C) heppl
+D) Error
+Correct Answer: A) heppo
+
+Question 45
+What is the output of the following code?
+x = {1: 'a', 2: 'b'}
+print(x.keys())
+A) [1, 2]
+B) ['a', 'b']
+C) dict_keys([1, 2])
+D) Error
+Correct Answer: C) dict_keys([1, 2])
+
+Question 46
+What is the output of the following code?
+for i in range(4):
+    if i == 1:
+        break
+    print(i, end=" ")
+A) 0
+B) 0 1
+C) 0 1 2 3
+D) Error
+Correct Answer: A) 0
+
+Question 47
+What is the output of the following code?
+x = (1, 2, 3)
+y = x + (4,)
+print(y)
+A) (1, 2, 3)
+B) (1, 2, 3, 4)
+C) [1, 2, 3, 4]
+D) Error
+Correct Answer: B) (1, 2, 3, 4)
+
+Question 48
+What is the output of the following code?
+s = {1, 2, 3}
+s.discard(2)
+print(s)
+A) {1, 2, 3}
+B) {1, 3}
+C) {2}
+D) Error
+Correct Answer: B) {1, 3}
+
+Question 49
+What is the output of the following code?
+try:
+    x = int("abc")
+except ValueError:
+    print("Error")
+A) abc
+B) Error
+C) 0
+D) None
+Correct Answer: B) Error
+
+Question 50
+What is the output of the following code?
+x = [1, 2, 3]
+print(x[-1])
+A) 1
+B) 2
+C) 3
+D) Error
+Correct Answer: C) 3
