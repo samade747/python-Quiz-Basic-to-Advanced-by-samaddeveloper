@@ -694,3 +694,24 @@ B) Dictionary
 C) Set
 D) Tuple
 Correct Answer: D) Tuple
+
+
+Question 18
+What is the output of the following code?
+d = {'a': 1, 'b': 2}
+print(d['a'])
+A) 1
+B) 2
+C) 'a'
+D) Error
+Correct Answer: A) 1
+
+Question 19
+What is the output of the following code?
+s = "hello"
+print(s.upper())
+A) HELLO
+B) hello
+C) Hello
+D) hELLO
+Correct Answer: A) HELLO
