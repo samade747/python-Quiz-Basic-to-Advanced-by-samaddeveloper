@@ -496,3 +496,201 @@
     c) Both a and b  
     d) It's for context management  
     Correct Answer: d
+
+
+58. How do you handle file not found error?  
+    a) try: open("file.txt") except FileNotFoundError: ...  
+    b) if not os.path.exists("file.txt"): ...  
+    c) Both a and b  
+    d) Files always exist in Python  
+    Correct Answer: c
+
+
+59. What is the mode for writing to a file?  
+    a) "w"  
+    b) "r"  
+    c) "a"  
+    d) "x"  
+    Correct Answer: a
+
+
+60. How do you type hint the return type of a function that reads from a file?  
+    a) def read_file() -> str: ... (if reading text)  
+    b) def read_file() -> bytes: ... (if reading binary)  
+    c) Both a and b depending on mode  
+    d) File reading doesn't return anything  
+    Correct Answer: c
+
+
+Section 13: Object-Oriented Programming
+
+61. What is the correct way to define a class with an initializer in Python?  
+    a) class MyClass: def __init__(self, x): self.x = x  
+    b) class MyClass: def constructor(self, x): self.x = x  
+    c) class MyClass: def __constructor__(self, x): self.x = x  
+    d) class MyClass: def init(self, x): self.x = x  
+    Correct Answer: a
+
+
+
+Question 1
+What is the output of the following code?
+print(type(42))
+A) <class 'str'>
+B) <class 'int'>
+C) <class 'float'>
+D) <class 'bool'>
+Correct Answer: B) <class 'int'>
+
+Question 2
+Which of the following is a valid variable name in Python?
+A) 2variable
+B) my_variable
+C) my-variable
+D) my variable
+Correct Answer: B) my_variable
+
+
+Question 3
+What is the result of 3 + 5 * 2 in Python?
+A) 16
+B) 13
+C) 11
+D) 10
+Correct Answer: B) 13
+
+
+Question 4
+Which data type is mutable in Python?
+A) Tuple
+B) String
+C) List
+D) Integer
+Correct Answer: C) List
+
+
+Question 5
+What does the len() function do?
+A) Returns the number of characters in a string
+B) Returns the size of a variable in bytes
+C) Returns the number of items in an iterable
+D) Both A and C
+Correct Answer: D) Both A and C
+
+
+Question 6
+What is the output of the following code?
+x = "Hello"
+print(x[1])
+A) H
+B) e
+C) l
+D) o
+Correct Answer: B) e
+
+
+Question 7
+Which operator is used for exponentiation in Python?
+A) ^
+B) **
+C) *
+D) //
+Correct Answer: B) **
+
+Question 8
+What will print("Python".upper()) output?
+A) python
+B) PYTHON
+C) Python
+D) PYthon
+Correct Answer: B) PYTHON
+
+Question 9
+How do you create a single-line comment in Python?
+A) // This is a comment
+B) # This is a comment
+C) /* This is a comment */
+D) <!-- This is a comment -->
+Correct Answer: B) # This is a comment
+
+Question 10
+What is the output of the following code?
+for i in range(3):
+    print(i, end=" ")
+A) 0 1 2
+B) 1 2 3
+C) 0 1 2 3
+D) 1 2
+Correct Answer: A) 0 1 2
+
+Question 11
+Which of the following is NOT a valid Python data type?
+A) List
+B) Dictionary
+C) Array
+D) Tuple
+Correct Answer: C) Array
+
+Question 12
+What is the output of the following code?
+x = 10
+y = 3
+print(x // y)
+A) 3
+B) 3.33
+C) 4
+D) 3.0
+Correct Answer: A) 3
+
+Question 13
+What is the output of the following code?
+if 5 > 3:
+    print("Yes")
+else:
+    print("No")
+A) Yes
+B) No
+C) Error
+D) None
+Correct Answer: A) Yes
+
+Question 14
+What is the output of the following code?
+x = [1, 2, 3]
+x.append(4)
+print(x)
+A) [1, 2, 3]
+B) [1, 2, 3, 4]
+C) [4, 1, 2, 3]
+D) Error
+Correct Answer: B) [1, 2, 3, 4]
+
+Question 15
+What is the output of the following code?
+def square(num):
+    return num * num
+print(square(4))
+A) 8
+B) 16
+C) 4
+D) Error
+Correct Answer: B) 16
+
+Question 16
+What is the output of the following code?
+x = (1, 2, 3)
+print(x[1])
+A) 1
+B) 2
+C) 3
+D) Error
+Correct Answer: B) 2
+
+
+Question 17
+Which of the following is immutable in Python?
+A) List
+B) Dictionary
+C) Set
+D) Tuple
+Correct Answer: D) Tuple
