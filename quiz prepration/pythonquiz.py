@@ -399,52 +399,100 @@
 #     Correct Answer: a
 
 
-Section 10: Functions and Decorators
+# Section 10: Functions and Decorators
 
-46. What is the correct way to define a function with type hints that takes two integers and returns their sum?  
-    a) def add(x: int, y: int) -> int: return x + y  
-    b) def add(x, y): return x + y  
-    c) def add(int x, int y): return x + y  
-    d) def add(x: integer, y: integer) -> integer: return x + y  
+# 46. What is the correct way to define a function with type hints that takes two integers and returns their sum?  
+#     a) def add(x: int, y: int) -> int: return x + y  
+#     b) def add(x, y): return x + y  
+#     c) def add(int x, int y): return x + y  
+#     d) def add(x: integer, y: integer) -> integer: return x + y  
+#     Correct Answer: a
+
+
+# 47. How do you define a decorator that preserves the type hints of the original function?  
+#     a) Use @wraps from functools  
+#     b) It's not possible  
+#     c) Use @preserve_types  
+#     d) Decorators automatically preserve type hints  
+#     Correct Answer: a
+
+# 48. What is a closure in Python?  
+#     a) A function that has access to its own scope and the scope of its outer functions  
+#     b) A function that is closed and cannot be called again  
+#     c) A function with no arguments  
+#     d) A function that returns itself  
+#     Correct Answer: a
+
+
+# 49. How do you type hint a function that returns another function?  
+#     a) from typing import Callable; def func() -> Callable[[int], int]: ...  
+#     b) def func() -> function: ...  
+#     c) def func() -> (int) -> int: ...  
+#     d) It's not possible  
+#     Correct Answer: a
+
+
+# 50. What is the purpose of `*args` and `**kwargs` in functions?  
+#     a) To accept any number of positional and keyword arguments  
+#     b) To accept only positional arguments  
+#     c) To accept only keyword arguments  
+#     d) To make functions more flexible  
+#     Correct Answer: a
+
+
+# Section 11: Exception Handling
+
+# 51. What is the structure of a try-except block?  
+#     a) try: ... except Exception as e: ...  
+#     b) try: ... catch Exception e: ...  
+#     c) try: ... on error: ...  
+#     d) It's not needed in Python  
+#     Correct Answer: a
+
+
+# 52. How do you catch multiple exceptions?  
+#     a) except (Exception1, Exception2): ...  
+#     b) except Exception1 or Exception2: ...  
+#     c) except Exception1, Exception2: ...  
+#     d) You need separate except blocks  
+#     Correct Answer: a
+
+
+53. What does `finally` do in try-except?  
+    a) Always executes, whether exception or not  
+    b) Executes only if no exception  
+    c) Executes only if exception  
+    d) It's optional  
     Correct Answer: a
 
 
-47. How do you define a decorator that preserves the type hints of the original function?  
-    a) Use @wraps from functools  
-    b) It's not possible  
-    c) Use @preserve_types  
-    d) Decorators automatically preserve type hints  
-    Correct Answer: a
 
-48. What is a closure in Python?  
-    a) A function that has access to its own scope and the scope of its outer functions  
-    b) A function that is closed and cannot be called again  
-    c) A function with no arguments  
-    d) A function that returns itself  
-    Correct Answer: a
-
-
-49. How do you type hint a function that returns another function?  
-    a) from typing import Callable; def func() -> Callable[[int], int]: ...  
-    b) def func() -> function: ...  
-    c) def func() -> (int) -> int: ...  
+54. How do you raise a custom exception?  
+    a) raise MyError("message")  
+    b) throw MyError("message")  
+    c) error MyError("message")  
     d) It's not possible  
     Correct Answer: a
 
+55. What is the type hint for a function that may raise an exception?  
+    a) There is no specific type hint for exceptions  
+    b) def func() -> Exception: ...  
+    c) def func() raises Exception: ...  
+    d) Use @raises decorator  
+    Correct Answer: a (type hints don't specify exceptions
 
-50. What is the purpose of `*args` and `**kwargs` in functions?  
-    a) To accept any number of positional and keyword arguments  
-    b) To accept only positional arguments  
-    c) To accept only keyword arguments  
-    d) To make functions more flexible  
-    Correct Answer: a
+
+56. How do you open a file for reading with type hints?  
+    a) with open("file.txt", "r") as f: ...  
+    b) f: TextIO = open("file.txt", "r")  
+    c) Both a and b  
+    d) File handling doesn't need type hints  
+    Correct Answer: c
 
 
-Section 11: Exception Handling
-
-51. What is the structure of a try-except block?  
-    a) try: ... except Exception as e: ...  
-    b) try: ... catch Exception e: ...  
-    c) try: ... on error: ...  
-    d) It's not needed in Python  
-    Correct Answer: a
+57. What does `with` statement do?  
+    a) Ensures file is closed after use  
+    b) Opens the file  
+    c) Both a and b  
+    d) It's for context management  
+    Correct Answer: d
