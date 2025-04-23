@@ -715,3 +715,56 @@ B) hello
 C) Hello
 D) hELLO
 Correct Answer: A) HELLO
+
+
+Question 20
+What is the correct way to open a file for reading in Python?
+A) open("file.txt")
+B) open("file.txt", "r")
+C) open("file.txt", "w")
+D) open("file.txt", "a")
+Correct Answer: B) open("file.txt", "r")
+
+Question 21
+What is the output of the following code?
+try:
+    print(1 / 0)
+except ZeroDivisionError:
+    print("Error")
+A) Error
+B) 1
+C) 0
+D) None
+Correct Answer: A) Error
+
+Question 22
+What is the output of the following code?
+x = [1, 2, 3]
+print(x[1:3])
+A) [1, 2]
+B) [2, 3]
+C) [1, 2, 3]
+D) [3]
+Correct Answer: B) [2, 3]
+
+
+Question 23
+What is the output of the following code?
+s = {1, 2, 3}
+s.add(4)
+print(s)
+A) {1, 2, 3}
+B) {1, 2, 3, 4}
+C) {4, 1, 2, 3}
+D) Error
+Correct Answer: B) {1, 2, 3, 4}
+
+
+Question 24
+What is the output of the following code?
+print("Python"[1:4])
+A) Pyt
+B) yth
+C) tho
+D) hon
+Correct Answer: B) yth
