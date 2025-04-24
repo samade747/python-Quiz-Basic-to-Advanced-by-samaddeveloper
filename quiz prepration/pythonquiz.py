@@ -1628,3 +1628,36 @@ B) 5
 C) 3
 D) Error
 Correct Answer: A) 8
+
+
+Question 23
+What is a closure in Python?
+A) A function that retains access to variables from its enclosing scope
+B) A class method
+C) A static method
+D) A context manager
+Correct Answer: A) A function that retains access to variables from its enclosing scope
+
+
+Question 24
+What is the output of the following code?
+def outer(x):
+    def inner(y):
+        return x + y
+    return inner
+f = outer(5)
+print(f(3))
+A) 8
+B) 5
+C) 3
+D) Error
+Correct Answer: A) 8
+
+
+Question 25
+What is the purpose of the __slots__ attribute in a class?
+A) To define class methods
+B) To restrict the attributes a class can have
+C) To create static methods
+D) To initialize attributes
+Correct Answer: B) To restrict the attributes a class can have
