@@ -1661,3 +1661,28 @@ B) To restrict the attributes a class can have
 C) To create static methods
 D) To initialize attributes
 Correct Answer: B) To restrict the attributes a class can have
+
+
+Question 26
+What is the output of the following code?
+class MyClass:
+    __slots__ = ['x']
+    def __init__(self):
+        self.x = 10
+obj = MyClass()
+obj.y = 20
+print(obj.y)
+A) 20
+B) 10
+C) Error
+D) None
+Correct Answer: C) Error
+
+
+Question 27
+What does the itertools.chain function do?
+A) Combines multiple iterables into a single iterable
+B) Filters an iterable
+C) Maps a function to an iterable
+D) Creates a generator
+Correct Answer: A) Combines multiple iterables into a single iterable
