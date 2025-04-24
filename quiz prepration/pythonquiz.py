@@ -1384,7 +1384,117 @@ D) None
 Correct Answer: A) Whiskers
 
 
+# Advanced Python Quiz - 100 Questions
+# This quiz covers advanced Python topics, including decorators, generators, context managers, metaclasses, asynchronous programming, threading, functional programming, and more. Each question includes four answer options, with the correct answer clearly indicated.
 
 
 
+Question 1
+What is the purpose of a decorator in Python?
+A) To define a new function
+B) To modify the behavior of a function or class
+C) To handle exceptions
+D) To import modules
+Correct Answer: B) To modify the behavior of a function or class
+
+Question 2
+Which keyword is used to define a generator function?
+A) def
+B) yield
+C) return
+D) lambda
+Correct Answer: B) yield
+
+Question 3
+What is the output of the following code?
+def my_gen():
+    yield 1
+    yield 2
+    yield 3
+g = my_gen()
+print(next(g), next(g))
+A) 1 2
+B) 2 3
+C) 1 3
+D) Error
+Correct Answer: A) 1 2
+
+Question 4
+What does a context manager in Python ensure?
+A) Memory allocation
+B) Proper resource management
+C) Function execution
+D) Class definition
+Correct Answer: B) Proper resource management
+
+Question 5
+What is the output of the following code?
+from contextlib import contextmanager
+@contextmanager
+def my_context():
+    print("Enter")
+    yield
+    print("Exit")
+with my_context():
+    print("Inside")
+A) Enter Inside Exit
+B) Inside Enter Exit
+C) Exit Inside Enter
+D) Error
+Correct Answer: A) Enter Inside Exit
+
+Question 6
+What is a metaclass in Python?
+A) A class that defines the behavior of other classes
+B) A subclass
+C) An instance of a class
+D) A function that returns a class
+Correct Answer: A) A class that defines the behavior of other classes
+
+Question 7
+How do you define an asynchronous function in Python?
+A) Using def
+B) Using async def
+C) Using lambda
+D) Using yield
+Correct Answer: B) Using async def
+
+Question 8
+What is the output of the following code?
+import asyncio
+async def say_hello():
+    await asyncio.sleep(1)
+    return "Hello"
+async def main():
+    return await say_hello()
+print(asyncio.run(main()))
+A) Hello
+B) None
+C) Error
+D)
+ Correct Answer: A) Hello
+
+Question 9
+What does the @property decorator do?
+A) Defines a static method
+B) Converts a method into a property
+C) Makes a method private
+D) Creates a class attribute
+Correct Answer: B) Converts a method into a property
+
+Question 10
+What is the output of the following code?
+class MyClass:
+    def __init__(self):
+        self._x = 10
+    @property
+    def x(self):
+        return self._x
+obj = MyClass()
+print(obj.x)
+A) 10
+B) Error
+C) None
+D) _x
+Correct Answer: A) 10
 
