@@ -1498,3 +1498,133 @@ C) None
 D) _x
 Correct Answer: A) 10
 
+
+Question 11
+Which module is used for threading in Python?
+A) thread
+B) threading
+C) multiprocessing
+D) asyncio
+Correct Answer: B) threading
+
+Question 12
+What is the output of the following code?
+import threading
+def print_nums():
+    print(1)
+t = threading.Thread(target=print_nums)
+t.start()
+t.join()
+A) 1
+B) None
+C) Error
+D) Thread object
+Correct Answer: A) 1
+
+Question 13
+What is the purpose of the map() function?
+A) To filter a list
+B) To sort a list
+C) To apply a function to each item of an iterable
+D) To create a dictionary
+Correct Answer: C) To apply a function to each item of an iterable
+
+Question 14
+What is the output of the following code?
+nums = [1, 2, 3]
+squares = map(lambda x: x**2, nums)
+print(list(squares))
+A) [1, 4, 9]
+B) [1, 2, 3]
+C) [2, 4, 6]
+D) Error
+Correct Answer: A) [1, 4, 9]
+
+Question 15
+What is the difference between deepcopy and copy?
+A) copy creates a deep copy, deepcopy creates a shallow copy
+B) deepcopy creates a new compound structure, copy creates a shallow copy
+C) No difference
+D) deepcopy is for lists, copy is for dictionaries
+Correct Answer: B) deepcopy creates a new compound structure, copy creates a shallow copy
+
+Question 16
+What is the output of the following code?
+from copy import deepcopy
+a = [[1, 2], [3, 4]]
+b = deepcopy(a)
+b[0][0] = 5
+print(a)
+A) [[5, 2], [3, 4]]
+B) [[1, 2], [3, 4]]
+C) [[1, 2], [5, 4]]
+D) Error
+Correct Answer: B) [[1, 2], [3, 4]]
+
+Question 17
+What is the purpose of the __init__ method in a class?
+A) To define a static method
+B) To initialize instance attributes
+C) To create a class
+D) To destroy an object
+Correct Answer: B) To initialize instance attributes
+
+Question 18
+What is the output of the following code?
+class MyClass:
+    def __init__(self, x):
+        self.x = x
+    def __str__(self):
+        return f"MyClass({self.x})"
+obj = MyClass(5)
+print(obj)
+A) MyClass(5)
+B) 5
+C) Error
+D)
+ Correct Answer: A) MyClass(5)
+
+Question 19
+What does the @classmethod decorator do?
+A) Makes a method static
+B) Binds a method to the class rather than the instance
+C) Converts a method to a property
+D) Defines a private method
+Correct Answer: B) Binds a method to the class rather than the instance
+
+Question 20
+What is the output of the following code?
+class MyClass:
+    @classmethod
+    def my_method(cls):
+        return cls.__name__
+print(MyClass.my_method())
+A) MyClass
+B) my_method
+C) Error
+D) None
+Correct Answer: A) MyClass
+
+
+Question 21
+What is the purpose of the functools.partial function?
+A) To create a new function with some arguments pre-filled
+B) To decorate a function
+C) To copy a function
+D) To execute a function asynchronously
+Correct Answer: A) To create a new function with some arguments pre-filled
+
+
+
+Question 22
+What is the output of the following code?
+from functools import partial
+def add(x, y):
+    return x + y
+add_five = partial(add, 5)
+print(add_five(3))
+A) 8
+B) 5
+C) 3
+D) Error
+Correct Answer: A) 8
