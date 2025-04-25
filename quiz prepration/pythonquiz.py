@@ -1686,3 +1686,289 @@ B) Filters an iterable
 C) Maps a function to an iterable
 D) Creates a generator
 Correct Answer: A) Combines multiple iterables into a single iterable
+
+
+
+Question 28
+What is the output of the following code?
+from itertools import chain
+a = [1, 2]
+b = [3, 4]
+print(list(chain(a, b)))
+A) [1, 2, 3, 4]
+B) [[1, 2], [3, 4]]
+C) [1, 2]
+D) Error
+Correct Answer: A) [1, 2, 3, 4]
+
+Question 29
+What is the purpose of the collections.namedtuple?
+A) To create a tuple subclass with named fields
+B) To create a dictionary
+C) To create a list
+D) To define a class
+Correct Answer: A) To create a tuple subclass with named fields
+
+Question 30
+What is the output of the following code?
+from collections import namedtuple
+Point = namedtuple('Point', ['x', 'y'])
+p = Point(1, 2)
+print(p.x)
+A) 1
+B) 2
+C) Error
+D) None
+Correct Answer: A) 1
+
+
+Question 31
+What is the Global Interpreter Lock (GIL) in Python?
+A) A lock that prevents multiple threads from executing Python bytecode simultaneously
+B) A lock for file operations
+C) A lock for memory management
+D) A lock for asynchronous functions
+Correct Answer: A) A lock that prevents multiple threads from executing Python bytecode simultaneously
+
+Question 32
+What is the output of the following code?
+import multiprocessing
+def square(num):
+    return num * num
+if __name__ == '__main__':
+    with multiprocessing.Pool(2) as pool:
+        results = pool.map(square, [1, 2, 3])
+    print(results)
+A) [1, 4, 9]
+B) [1, 2, 3]
+C) Error
+D) None
+Correct Answer: A) [1, 4, 9]
+
+Question 33
+What is the purpose of the abc module in Python?
+A) To define abstract base classes
+B) To handle arithmetic operations
+C) To create iterators
+D) To manage threads
+Correct Answer: A) To define abstract base classes
+
+Question 34
+What is the output of the following code?
+from abc import ABC, abstractmethod
+class MyClass(ABC):
+    @abstractmethod
+    def my_method(self):
+        pass
+class SubClass(MyClass):
+    def my_method(self):
+        return "Hello"
+obj = SubClass()
+print(obj.my_method())
+A) Hello
+B) Error
+C) None
+D) MyClass
+Correct Answer: A) Hello
+
+Question 35
+What does the @staticmethod decorator do?
+A) Binds a method to the class rather than the instance
+B) Converts a method to a property
+C) Defines a method that doesn’t need a class or instance reference
+D) Makes a method private
+Correct Answer: C) Defines a method that doesn’t need a class or instance reference
+
+Question 36
+What is the output of the following code?
+class MyClass:
+    @staticmethod
+    def my_method():
+        return "Static"
+print(MyClass.my_method())
+A) Static
+B) Error
+C) None
+D) MyClass
+Correct Answer: A) Static
+
+Question 37
+What is the purpose of the weakref module?
+A) To create weak references to objects
+B) To manage memory
+C) To define weak methods
+D) To create iterators
+Correct Answer: A) To create weak references to objects
+
+Question 38
+What is the output of the following code?
+import weakref
+class MyClass:
+    pass
+obj = MyClass()
+ref = weakref.ref(obj)
+obj = None
+print(ref())
+A) None
+B) MyClass
+C) Error
+D)
+ Correct Answer: A) None
+
+Question 39
+What is the purpose of the functools.lru_cache decorator?
+A) To cache function results for performance
+B) To create a closure
+C) To define a static method
+D) To handle exceptions
+Correct Answer: A) To cache function results for performance
+
+Question 40
+What is the output of the following code?
+from functools import lru_cache
+@lru_cache(maxsize=2)
+def fib(n):
+    if n < 2:
+        return n
+    return fib(n-1) + fib(n-2)
+print(fib(5))
+A) 5
+B) 3
+C) Error
+D) None
+Correct Answer: A) 5
+
+Question 41
+What is the output of the following code?
+import sys
+print(sys.getsizeof([]))
+A) 56
+B) 0
+C) 8
+D) Error
+Correct Answer: A) 56
+
+Question 42
+What is the purpose of the __call__ method in a class?
+A) To make an instance callable like a function
+B) To initialize an instance
+C) To destroy an instance
+D) To define a static method
+Correct Answer: A) To make an instance callable like a function
+
+Question 43
+What is the output of the following code?
+class Callable:
+    def __call__(self):
+        return "Called"
+obj = Callable()
+print(obj())
+A) Called
+B) Error
+C) None
+D) Callable
+Correct Answer: A) Called
+
+Question 44
+What is the purpose of the dataclasses module?
+A) To simplify class creation with automatic methods
+B) To manage databases
+C) To create iterators
+D) To handle threads
+Correct Answer: A) To simplify class creation with automatic methods
+
+Question 45
+What is the output of the following code?
+from dataclasses import dataclass
+@dataclass
+class Point:
+    x: int
+    y: int
+p = Point(1, 2)
+print(p.x)
+A) 1
+B) 2
+C) Error
+D) None
+Correct Answer: A) 1
+
+Question 46
+What is the output of the following code?
+import operator
+nums = [1, 2, 3]
+print(operator.itemgetter(1)(nums))
+A) 1
+B) 2
+C) 3
+D) Error
+Correct Answer: B) 2
+
+Question 47
+What is the purpose of the enum module?
+A) To create enumerated constants
+B) To manage exceptions
+C) To define iterators
+D) To handle threads
+Correct Answer: A) To create enumerated constants
+
+Question 48
+What is the output of the following code?
+from enum import Enum
+class Color(Enum):
+    RED = 1
+print(Color.RED.value)
+A) 1
+B) RED
+C) Error
+D) None
+Correct Answer: A) 1
+
+Question 49
+What is the output of the following code?
+def my_decorator(func):
+    def wrapper():
+        return func().upper()
+    return wrapper
+@my_decorator
+def say_hello():
+    return "hello"
+print(say_hello())
+A) HELLO
+B) hello
+C) Error
+D) None
+Correct Answer: A) HELLO
+
+Question 50
+What is the output of the following code?
+class Singleton(type):
+    _instances = {}
+    def __call__(cls, *args, **kwargs):
+        if cls not in cls._instances:
+            cls._instances[cls] = super().__call__(*args, **kwargs)
+        return cls._instances[cls]
+class MyClass(metaclass=Singleton):
+    pass
+a = MyClass()
+b = MyClass()
+print(a is b)
+A) True
+B) False
+C) Error
+D) None
+Correct Answer: A) True
+
+Question 51
+What is the output of the following code?
+import asyncio
+async def my_task():
+    await asyncio.sleep(1)
+    return 42
+tasks = [my_task() for _ in range(2)]
+results = asyncio.run(asyncio.gather(*tasks))
+print(results)
+A) [42, 42]
+B) 42
+C) Error
+D) None
+Correct Answer: A) [42, 42]
